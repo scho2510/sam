@@ -22,6 +22,34 @@ line-height: 1.7;
 }
 
 
+.hr-circle {
+
+    background-color: #edede8;
+    position: relative;
+    z-index: 4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.hr-margin {
+    margin: 0px 1rem 0px 3rem;
+}
+
 /* Nav bar related */
 .float-left {
     text-align: left;
@@ -39,9 +67,13 @@ line-height: 1.7;
 }
 
 .nav {
-    font-family: 'Lato', sans-serif;
-    display: inline-block;
-    margin:0 auto;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: transparent;
 
 }
 
@@ -58,12 +90,13 @@ line-height: 1.7;
     padding: 16px;
     text-decoration: none;
     text-align: left;
+    color: #000;
 }
 
 
 .nav-bar-header {
     padding: 5px 0px;
-    background-color: #edede8;
+    background-color:
     text-align: left !important;
 
 }
@@ -102,13 +135,27 @@ line-height: 1.7;
     opacity: 0.4;
 }
 
+.text-circle {
+    position: relative;
+    font-family: 'Butler Regular', sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+
 .text-left {
     text-align: left;
 }
 
 .home-background-img {
-    background-image: url(home_banner_image.png);
-    z-index: 1;
+    background-image: url(assets/home_banner_image.png);
+    z-index: 10000;
+    background-size:100%;
+    padding-left: 5rem; 
+    padding-top: 5rem;
+    max-height:500px;
+    margin-top: 3rem;
+    margin: auto 0;
+    background-repeat:no-repeat;
 }
 
 .first-section-home {
@@ -135,6 +182,16 @@ img {
 .fifth-section-home {
     background-color: #ffffff;
 }
+
+.sixth-section-home {
+    background-color: #ffffff;
+    display:flex;
+    font-size:15px;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
 
 .text-move-up {
     margin-top: -200px; 
