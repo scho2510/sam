@@ -43,3 +43,28 @@ function getInfo() {
 }
 
 
+
+
+/*fetch( 'https://regres.in/api/users' , {
+    method: 'GET',
+    headers: {
+        'Content-Type':'application/json'
+    },
+    body: JSON.stringify {
+        name:'user1'
+    } 
+})
+.then(res => {
+    if (res.ok) {
+        console.log("Success") 
+    }else {
+        console.log("failed")
+    }
+})
+    res.json())
+.then(data => console.log(data)) */
+
+
+fetch('https://reqres.in/api/users')
+.then(res => res.json())
+.then(data => console.log(data)) 
