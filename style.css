@@ -320,3 +320,34 @@ color: #fff;
     text-align: left;
     font-weight:normal;
   }
+
+  /* Account page */
+  .display-inline {
+      display:inline-block;
+  }
+
+  .submit-button {
+      background-color: #FFDC4E;
+      border-radius: 5px;
+        padding: 10px 20px;
+        font-size:14px;
+        font-weight:600;  
+    }
+    .submit-button:hover {
+        background-color: #f2d668;
+        cursor: pointer;
+    }
+ 
+  .join-button {
+    background-color: #0880FA;
+    border-radius: 5px;
+      padding: 10px 20px;
+      font-size:14px;
+      font-weight:600;    
+      width:auto 0;
+      min-width: 100px;
+  }
+  .join-button:hover {
+      background-color: #4f90d1;
+      cursor: pointer;
+  }
