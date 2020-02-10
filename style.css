@@ -254,9 +254,12 @@ border-radius: 8px;
 background-color: #000;
 font-size: 14px;
 color: #fff;
+margin: 20px;
 }
 
-
+.btn-inline {
+    display:inline-block;
+}
 
 
 /* */
@@ -327,11 +330,19 @@ color: #fff;
   }
 
   .submit-button {
-      background-color: #FFDC4E;
-      border-radius: 5px;
-        padding: 10px 20px;
-        font-size:14px;
-        font-weight:600;  
+    background-color: #FFDC4E;
+    border-radius: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size:14px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-weight:600;  
+    margin: 20px;
     }
     .submit-button:hover {
         background-color: #f2d668;
@@ -350,4 +361,28 @@ color: #fff;
   .join-button:hover {
       background-color: #4f90d1;
       cursor: pointer;
+  }
+
+  /* Form */
+  .form-input 
+  {
+    display: block;
+    width: 100%;
+
+    height: 20px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    text-align: center;
+    float:center;
+  }
+
+  .input-center {
+    text-align: center;
+    float:center;
   }

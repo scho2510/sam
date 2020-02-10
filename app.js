@@ -29,7 +29,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
 function getInfo() {
     var username = document.getElementById("username").value
     var password = document.getElementById("password").value
@@ -68,3 +67,12 @@ function getInfo() {
 fetch('https://reqres.in/api/users')
 .then(res => res.json())
 .then(data => console.log(data)) 
+
+
+fetch('http://example.com/movies.json')
+  .then((response) => {
+    return response.json();
+  })
+  .then((myJson) => {
+    console.log(myJson);
+  });
